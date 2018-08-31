@@ -4,7 +4,7 @@ echoerr() { if [[ $QUIET -ne 1 ]]; then echo "$@" 1>&2; fi }
 
 parse_arguments() {
   local index=0
-  echoerr "wait script parameters:"$@
+  echoerr "Wait script parameters:"$@
   echoerr "number of params" $#
   while [[ $# -gt 0 ]]
   do
