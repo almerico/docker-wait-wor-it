@@ -1,1 +1,1 @@
-# docker-wait-wor-it
+# docker-wait-for-it
